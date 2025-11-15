@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmartPDF Assistant</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+</head>
+<body>
+<div class="container">
+<h1>SmartPDF Assistant</h1>
+<p>Made by Nefzi Youssef & Hanen Mrizgui</p>
+<input type="file" id="pdfUpload" accept="application/pdf">
+<div id="pdfStatus">No PDF loaded.</div>
+<textarea id="questionInput" placeholder="Ask a question about the PDF..."></textarea>
+<button id="askBtn">Ask</button>
+<div id="answerOutput">Answer will appear here.</div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
