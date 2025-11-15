@@ -6,8 +6,7 @@ const askBtn = document.getElementById('askBtn');
 const answerOutput = document.getElementById('answerOutput');
 
 // Configuration - REPLACE WITH YOUR ACTUAL API KEY
-const OPENAI_API_KEY = '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';
-
+const OPENAI_API_KEY = "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";
 pdfUpload.addEventListener('change', function(e) {
     const file = e.target.files[0];
     if (file && file.type === 'application/pdf') {
@@ -291,4 +290,5 @@ function showExamples() {
     ];
     
     console.log('Example questions:', examples);
+
 }
